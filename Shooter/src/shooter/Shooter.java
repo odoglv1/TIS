@@ -10,6 +10,8 @@ import processing.core.PImage;
 public class Shooter extends PApplet {
 	
 	PImage background;
+	PImage logo;
+	
 	PImage ship1;
 	PImage ship2;
 	PImage ship3;
@@ -80,6 +82,8 @@ public class Shooter extends PApplet {
 		laser = minim.loadSample("laser.wav");
 		
 		background = loadImage("background.png");
+		logo = loadImage("game2.png");
+		logo.resize(50, 50);
 		ship1 = loadImage("Dove1.png");
 		ship2 = loadImage("Dove2.png");
 		ship3 = loadImage("Dove3.png");
@@ -230,10 +234,11 @@ public class Shooter extends PApplet {
 			}
 		}
 		if (!playingGame) {
-			//TODO: Show title screen
+			//TODO: Show an actual title screen
 			fill(255);
 			textSize(12);
 			text("TITLE SCREEN", 10, 10);
+			image(logo, width - logo.width - 5, height - logo.height - 5);
 		}
 	}
 	
