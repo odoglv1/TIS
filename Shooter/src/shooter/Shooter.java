@@ -52,7 +52,7 @@ public class Shooter extends PApplet {
 	public AudioSample laser;
 
 	public void setup() {
-		surface.setTitle("The Unbeatable Shooter by game²");
+		surface.setTitle("The Impossible Shooter by game²");
 		
 		playingGame = false;
 		endless = false;
@@ -119,7 +119,7 @@ public class Shooter extends PApplet {
 			
 			if (!wonGame) {
 				fill(0, 255, 255, 64);
-				rect(0, height - ship.currentSprite.height - 10, width + 1, height - ship.currentSprite.height - 10);
+				rect(0, height - ship4.height - 10, width + 1, height - ship4.height - 10);
 			}
 			
 			if (enemies.isEmpty() && !wonGame) {
@@ -195,7 +195,7 @@ public class Shooter extends PApplet {
 					if (ship.yPos + ship.currentSprite.height <= 0) {
 						fill(255);
 						textSize(16);
-						text("YOU BEAT THE UNBEATABLE SHOOTER!", width / 2 - 150 / 2, height / 2 - 100 / 2, 150, 100);
+						text("YOU BEAT THE IMPOSSIBLE SHOOTER!", width / 2 - 150 / 2, height / 2 - 100 / 2, 150, 100);
 						
 						fill(204, 128, 0);
 						textSize(12);
