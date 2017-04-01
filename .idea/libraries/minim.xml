@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="minim">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Shooter/lib/user/minim" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Shooter/lib/user/minim" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Shooter/lib/user/minim" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Shooter/lib/user/minim" recursive="false" type="SOURCES" />
+  </library>
+</component>
