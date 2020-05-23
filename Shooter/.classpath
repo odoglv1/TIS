@@ -1,33 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="lib" path="lib/base/net/net.jar" sourcepath="/Applications/Processing.app/Contents/Java/modes/java/libraries/net/src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/net"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-linux-armv6hf.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-linux-armv6hf.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-linux-aarch64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-linux-aarch64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-macosx-universal.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-linux-amd64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-linux-i586.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-windows-i586.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-linux-i586.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-linux-amd64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/core.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-macosx-universal.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-windows-i586.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/gluegen-rt-natives-windows-amd64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/base/core/jogl-all-natives-windows-amd64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Shooter/lib/base/core"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/core.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-linux-aarch64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-linux-amd64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-linux-armv6hf.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-linux-i586.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-macosx-universal.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/gluegen-rt-natives-windows-i586.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-linux-aarch64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-linux-amd64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-linux-armv6hf.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-linux-i586.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-macosx-universal.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-windows-amd64.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/core/library/jogl-all-natives-windows-i586.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/lib/ant.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/lib/ant-launcher.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/lib/jna.jar"/>
-	<classpathentry kind="lib" path="/home/owen/Documents/processing-3.3.6/lib/jna-platform.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/jl1.0.1.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/jsminim.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/minim.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/mp3spi1.9.5.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/tritonus_aos.jar"/>
-	<classpathentry kind="lib" path="/home/owen/sketchbook/libraries/minim/library/tritonus_share.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JRE 1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/jsminim.jar"/>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/minim.jar"/>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/mp3spi1.9.5.jar"/>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/tritonus_aos.jar"/>
+	<classpathentry kind="lib" path="/Users/owen.thompson21/Documents/Processing/libraries/minim/library/tritonus_share.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
